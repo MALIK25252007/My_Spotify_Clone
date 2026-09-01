@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const likedSongs = Array.from({ length: 36 }, (_, i) => ({
+    const likedSongs = Array.from({ length: 82 }, (_, i) => ({
         name: `Liked Song ${i + 1}`,
         artist: `Liked Artist ${i + 1}`,
-        src: `liked songs/${i + 1}.mp3`,
+        src: `liked songs/1 (${i + 1}).mp3`,
         cover: 'liked songs/hearts.png',
         liked: true
     }));
@@ -29,14 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
             cover: 'playlist3/raftar.png',
             liked: false
         })),
-        playlist4: Array.from({ length: 80 }, (_, i) => ({
+        playlist4: Array.from({ length: 40 }, (_, i) => ({
             name: `Honey Singh song ${i + 1}`,
             artist: `Artist: Honey singh`,
             src: `playlist4/4 (${i + 1}).mp3`,
             cover: 'playlist4/honeySingh.png',
             liked: false
         })),
-        playlist5: Array.from({ length: 80 }, (_, i) => ({
+        playlist5: Array.from({ length: 25 }, (_, i) => ({
             name: `Arjit singh ${i + 1}`,
             artist: `Artist: Arigit Singh`,
             src: `playlist5/5 (${i + 1}).mp3`,
